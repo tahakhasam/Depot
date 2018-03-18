@@ -9,7 +9,7 @@ class Cart < ApplicationRecord
 			current_item = line_items.build(product_id: product.id)
 			current_item.price = current_item.product.price
 		end
-		current_item
+		 current_item
 	end
 
 	def total_price
