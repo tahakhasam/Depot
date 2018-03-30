@@ -2,8 +2,8 @@
 
 one:
   name: Dave Thomas
-  address: MyText
-  email: example@example.org
+  address: 123 The Street
+  email: dave@example.org
   pay_type: Check
 
 two:
