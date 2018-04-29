@@ -1,3 +1,13 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.createBtn {
+	background: #0277bd;
+	color: white;
+	border-style: outset;
+	border-color: #0277bd;
+	height: 30px;
+	width: 110px;
+	font: bold 15px arial, sans-serif;
+	text-shadow:none;
+}

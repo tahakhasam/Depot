@@ -27,7 +27,10 @@
 
     <div class="field">
       <%= f.label :pay_type %>
-      <%= f.select :pay_type, Order.pay_types.keys, prompt: 'Select a payment method' %>
+      <select class="browser-default" name="order[pay_type]" id="order_pay_type"><option value="">Select a payment method</option>
+        <option value="Check">Check</option>
+        <option value="Credit Card">Credit Card</option>
+        <option value="Purchase order">Purchase order</option></select>
     </div>
 
     <div class="actions">

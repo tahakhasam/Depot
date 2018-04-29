@@ -12,14 +12,15 @@
  *
  *= require_tree .
  *= require_self
- */
-
+ */	
+@import "materialize";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
 body, body > p, body > ol, body > ul, body > td {margin: 8px !important;}
 
 #banner {
 	position: relative;
-	min-height: 40px;
-	background: #9c9;
+	min-height: 70px;
+	background: #311b92;
 	padding: 10px;
 	border-bottom: 2px solid;
 	font: small-caps 40px/40px "Times New Roman", serif;
@@ -30,7 +31,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important;}
 		position: absolute;
 		top: 0;
 		left: 0;
-		width: 192px;
+		width: 80px;
 	}
 }
 
@@ -59,7 +60,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important;}
 
 	#side {
 		padding: 1em 2em;
-		background: #141;
+		background: #01579b;
 
 		form, div {
 			display: inline;
@@ -150,3 +151,74 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important;}
 		}
 	}
 }
+.logoutBtn {
+	background: #37474f;
+	color: white;
+	border-style: outset;
+	border-color: #37474f;
+	height: 30px;
+	width: 110px;
+	font: bold 15px arial, sans-serif;
+	text-shadow:none;
+	box-shadow: 0 0 0 0 rgb(55, 71, 79);
+  background-color: #37474f;
+ 	background-size:cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+.createprBtn {
+	background: #0277bd;
+	color: white;
+	border-style: outset;
+	border-color: #0277bd;
+	height: 40px;
+	width: 200px;
+	font: bold 15px arial, sans-serif;
+	text-shadow:none;
+	box-shadow: 0 0 0 0 rgb(2, 119, 189);
+  background-color: #0277bd;
+ 	background-size:cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+.loginBtn {
+	background: #0277bd;
+	color: white;
+	border-style: outset;
+	border-color: #0277bd;
+	height: 40px;
+	width: 100px;
+	font: bold 15px arial, sans-serif;
+	text-shadow:none;
+	box-shadow: 0 0 0 0 rgb(2, 119, 189);
+  background-color: #0277bd;
+ 	background-size:cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+.material-icons {
+	color: #0277bd;
+}
+
+.logoutBtn .checkoutBtn .buttonTo .emptyBtn .loginBtn:hover {
+  -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+}
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 25px rgba(232, 76, 61, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 25px rgba(232, 76, 61, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 25px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 25px rgba(232, 76, 61, 0);}}
