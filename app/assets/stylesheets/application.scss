@@ -85,11 +85,11 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important;}
 			padding: 0;
 
 			li  {
-			list-style: none;
+			list-style: square;
+			color: #ff6f00;
 
 				a {
-					color: #bfb;
-					font-size: small;
+					color: #ff6f00;
 				}
 			}
 		}
@@ -210,6 +210,31 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important;}
   -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
   animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
 }
+
+.loginsiBtn {
+	display: block;
+  width: 160px;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+	background: #37474f;
+	border-style: outset;
+	border-color: #37474f;
+	font: bold 15px arial, sans-serif;
+	text-shadow:none;
+	box-shadow: 0 0 0 0 rgb(55, 71, 79);
+  background-color: #37474f;
+ 	background-size:cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
 .material-icons {
 	color: #0277bd;
 }

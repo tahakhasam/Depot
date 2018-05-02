@@ -24,17 +24,18 @@
           <% end %>
         </div> 
     			<ul>
-    				<li><a href="http://www....">Home</a></li>
-    				<li><a href="http://www..../faq">Question</a></li>
-    				<li><a href="http://www..../news">News</a></li>
-    				<li><a href="http://www..../contact">Contact</a></li>
+    				<li><a class="material-icons" href="/">home</a> Home</li>
     			</ul>
+
+          <div>
+            <a class="loginsiBtn" href="/admin">Seller Login</a>
+          </div>
 
           <% if session[:user_id] %>
             <ul>
-              <li><%= link_to 'Orders', orders_path %></li>
-              <li><%= link_to 'Products', products_path %></li>
-              <li><%= link_to 'Users', users_path %></li>
+              <li><%= link_to 'shopping_basket', orders_path, :class => 'material-icons' %> Orders</li>
+              <li><%= link_to 'shopping_cart', products_path, :class => 'material-icons' %> Products</li>
+              <li><%= link_to 'people', users_path, :class => 'material-icons' %> Users</li>
             </ul>
             <%= button_to 'Logout', logout_path, :class => 'logoutBtn' ,method: :delete %>
           <% end %>

@@ -27,13 +27,13 @@
 
     <div class="field">
       <%= f.label :pay_type %>
-      <select class="browser-default" name="order[pay_type]" id="order_pay_type"><option value="">Select a payment method</option>
+      <select class="dropdown-trigger btn" name="order[pay_type]" id="order_pay_type"><option value="">Select a payment method</option>
         <option value="Check">Check</option>
         <option value="Credit Card">Credit Card</option>
         <option value="Purchase order">Purchase order</option></select>
     </div>
 
     <div class="actions">
-      <%= f.submit 'Place Order' %>
+      <%= f.submit 'Place Order', class: 'createorderBtn' %>
     </div>
 <% end %>
